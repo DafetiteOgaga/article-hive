@@ -2,14 +2,14 @@
 h1, h2, h3, h4, h5, h6, p, button, .link-tag {
 	/* font-family: 'Alice', 'Courier New', Courier, monospace; */
 	color: #afa4a4;
-	font-size: small;
+	font-size: large;
 
-	@media (min-width: 480px) {
-		font-size: small;
-	}
-	@media (min-width: 720px) {
+	/* @media (min-width: 480px) {
 		font-size: large;
-	}
+	} */
+	/* @media (min-width: 720px) {
+		font-size: large;
+	} */
 	@media (min-width: 1024px) {
 		font-size: x-large;
 	}
@@ -335,21 +335,21 @@ article p {
 	display: flex;
 }
 .author-profilePic-date h1 {
-	font-size: .7rem;
+	font-size: 1rem;
 	text-wrap: nowrap;
 
-	@media (min-width: 480px) {
+	/* @media (min-width: 480px) {
         font-size: 0.6rem;
-    }
-	@media (min-width: 1024px) {
+    } */
+	/* @media (min-width: 1024px) {
         font-size: 1rem;
-    }
-	@media (min-width: 1200px) {
+    } */
+	/* @media (min-width: 1200px) {
         font-size: 0.7rem;
-    }
-	@media (min-width: 1300px) {
+    } */
+	/* @media (min-width: 1300px) {
         font-size: 1rem;
-    }
+    } */
 }
 
 section a {
