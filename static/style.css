@@ -234,7 +234,7 @@ article p {
 	background-color: #4f33ec2f;
 	padding: .5rem 1rem;
 }
-.profile p {
+/* .profile p {
 	font-size: 0.9rem;
 }
 .profile h1 {
@@ -244,7 +244,7 @@ article p {
 	@media (min-width: 1300px) {
         font-size: 1.5rem;
     }
-}
+} */
 .profile-img-container {
 	display: flex;
 	flex-direction: column;
