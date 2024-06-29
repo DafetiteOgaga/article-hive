@@ -234,7 +234,7 @@ article p {
 	background-color: #4f33ec2f;
 	padding: .5rem 1rem;
 }
-.profile h1, .profile p {
+.profile h1 {
 	@media (min-width: 1200px) {
         font-size: 1rem;
     }
@@ -274,9 +274,9 @@ article p {
 
 }
 
-.name {
+/* .name {
 	font-size: x-large;
-}
+} */
 
 .section-headings {
 	text-align: center;
