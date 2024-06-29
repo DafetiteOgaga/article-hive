@@ -234,6 +234,9 @@ article p {
 	background-color: #4f33ec2f;
 	padding: .5rem 1rem;
 }
+.profile p {
+	font-size: 0.9rem;
+}
 .profile h1 {
 	@media (min-width: 1200px) {
         font-size: 1rem;
