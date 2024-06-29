@@ -37,6 +37,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	flex-direction: column;
 
 	@media (min-width: 480px) {
 		padding-top: 1rem;
@@ -48,19 +49,36 @@ header {
 		padding: 2rem 2rem; /* under consideration */
 		padding-top: 3rem;
 	}
+	@media (min-width: 1024px) {
+		flex-direction: row;
+	}
+}
+
+nav {
+	padding-right: 2rem;
+	/* @media (min-width: 480px) {
+		padding-top: 1rem;
+	} */
+	/* @media (min-width: 720px) {
+		padding-top: 1.1rem;
+	} */
+	/* @media (min-width: 1024px) {
+		padding: 2rem 2rem;
+		padding-top: 3rem;
+	} */
 }
 
 header img {
-	width: 4.8rem;
+	width: 13rem;
 
 	@media (min-width: 480px) {
-		width: 10rem;
-	}
-	@media (min-width: 720px) {
 		width: 15rem;
 	}
+	@media (min-width: 720px) {
+		width: 20rem;
+	}
 	@media (min-width: 1024px) {
-		width: 23rem;
+		width: 25rem;
 	}
 }
 
@@ -73,20 +91,24 @@ ul li {
 	/* padding: .9rem; */
 	/* font-size: large; */
 	/* width: 6%; */
-	font-size: .5rem;
-	padding: .07rem;
+	font-size: 0.75rem;
+	padding: 0.15rem;
 
 	@media (min-width: 480px) {
-		font-size: .7rem;
-		padding: .1rem;
+		font-size: 0.8rem;
+		padding: .3rem;
 	}
 	@media (min-width: 720px) {
-		font-size: 1rem;
-		padding: 0.1rem;
+		font-size: 0.9rem;
+		padding: 0.5rem;
 	}
 	@media (min-width: 1024px) {
 		font-size: 1.5rem;
-		padding: 0.5rem;
+		padding: 0.7rem;
+	}
+	@media (min-width: 1200px) {
+		font-size: 1.3rem;
+		padding: 0.7rem;
 	}
 }
 
