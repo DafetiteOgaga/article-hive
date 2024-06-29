@@ -2,15 +2,11 @@
 h1, h2, h3, h4, h5, h6, p, button, .link-tag {
 	/* font-family: 'Alice', 'Courier New', Courier, monospace; */
 	color: #afa4a4;
-	font-size: large;
+	font-size: x-small;
 
-	
-	/* @media (min-width: 480px) {
-		font-size: large;
-	} */
-	/* @media (min-width: 720px) {
-		font-size: large;
-	} */
+	@media (min-width: 480px) {
+		font-size: smaller;
+	}
 	@media (min-width: 1024px) {
 		font-size: x-large;
 	}
@@ -26,8 +22,6 @@ h1, h2, h3, h4, h5, h6, p, button, .link-tag {
 	display: flex;
     flex-direction: row;
     align-items: center;
-	font-size: larger;
-	margin-bottom: 0;
 }
 
 body {
@@ -151,7 +145,7 @@ ul li {
 
 article {
 	padding-top: 2rem;
-	margin: 1rem;
+	margin: .3rem;
 	/* box-sizing: border-box; */
 
 	@media (min-width: 480px) {
@@ -338,21 +332,21 @@ article p {
 	display: flex;
 }
 .author-profilePic-date h1 {
-	font-size: 1rem;
+	font-size: .555rem;
 	text-wrap: nowrap;
 
-	/* @media (min-width: 480px) {
+	@media (min-width: 480px) {
         font-size: 0.6rem;
-    } */
-	/* @media (min-width: 1024px) {
+    }
+	@media (min-width: 1024px) {
         font-size: 1rem;
-    } */
-	/* @media (min-width: 1200px) {
+    }
+	@media (min-width: 1200px) {
         font-size: 0.7rem;
-    } */
-	/* @media (min-width: 1300px) {
+    }
+	@media (min-width: 1300px) {
         font-size: 1rem;
-    } */
+    }
 }
 
 section a {
