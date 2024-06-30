@@ -1,3 +1,95 @@
+@keyframes dropdown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.top-drop {
+    opacity: 0; /* Ensure the element is initially hidden */
+    animation: dropdown 1s ease-out forwards; /* Apply the animation */
+}
+
+@keyframes dropup {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.down-drop {
+    opacity: 0; /* Ensure the element is initially hidden */
+    animation: dropup 1s ease-out forwards; /* Apply the animation */
+}
+
+@keyframes fadeIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.left-anime {
+    opacity: 0; /* Ensure the element is initially hidden */
+    animation: fadeIn 2s ease-out forwards; /* Apply the animation */
+}
+
+@keyframes fadeOut {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.right-anime {
+    opacity: 0; /* Ensure the element is initially hidden */
+    animation: fadeOut 2s ease-out forwards; /* Apply the animation */
+}
+
+@keyframes bounceIn {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.button-container button {
+    opacity: 0; /* Ensure the element is initially hidden */
+    animation: bounceIn 1s ease-out forwards; /* Apply the bounce animation */
+    animation-delay: 0.5s; /* Add a delay for a staggered effect */
+}
+
+@keyframes bounceIn {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.button-container h1 {
+    opacity: 0; /* Ensure the element is initially hidden */
+    animation: bounceIn 1s ease-out forwards; /* Apply the bounce animation */
+    animation-delay: 0.5s; /* Add a delay for a staggered effect */
+}
+
 p {
 	font-size: 0;
 }
