@@ -12,10 +12,10 @@
 <body>
 	<header>
 		<a href="./index.html">
-			<img src="./logo - shade of brown/the-article-hive-high-resolution-logo-transparent.png" alt="header logo" />
+			<img class="right-anime" src="./logo - shade of brown/the-article-hive-high-resolution-logo-transparent.png" alt="header logo" />
 		</a>
 		<div style="display: flex;">
-			<nav>
+			<nav class="left-anime">
 				<ul>
 					<li><a href="./index.html">Home</a></li>
 					<li><a href="./hive.html">Hive</a></li>
@@ -33,9 +33,10 @@
 	</header>
 	<main>
 		<section class="register">
-			<div class="content">
+			<div class="content down-drop">
 				<h1>Become a Member for Free!</h1>
-				<form class="form-register" action="/submit-your-form-handler" method="POST">
+				<!-- <form class="form-register" action="/submit-your-form-handler" method="POST"> -->
+				<form id="form" class="form-register" action="" method="POST">
 					<div>
 						<span class="required">*</span>
 						<input id="firstname" name="firstname" type="text" placeholder="First name" required>
@@ -85,6 +86,7 @@
 			<p><a href='#'>Email Us</a></p>
 		</div>
 		<script src="./static/hero.js"></script>
+		<script src="./static/form.js"></script>
 	</footer>
 </body>
 </html>
