@@ -12,10 +12,10 @@
 <body>
 	<header>
 		<a href="./index.html">
-			<img src="./logo - shade of brown/the-article-hive-high-resolution-logo-transparent.png" alt="header logo" />
+			<img class="right-anime" src="./logo - shade of brown/the-article-hive-high-resolution-logo-transparent.png" alt="header logo" />
 		</a>
 		<div style="display: flex;">
-			<nav>
+			<nav class="left-anime">
 				<ul>
 					<li><a href="./index.html">Home</a></li>
 					<li><a href="./hive.html">Hive</a></li>
@@ -33,18 +33,19 @@
 	</header>
 	<main>
 		<section class="contact">
-			<div class="content">
+			<div class="content down-drop">
 				<h1>Contact Us</h1>
-				<form class="form-contact" action="/submit-your-form-handler" method="POST">
+				<!-- <form id="form" class="form-contact" action="/submit-your-form-handler" method="POST"> -->
+				<form id="form" class="form-contact" action="" method="POST">
 					<div>
-						<div><span class="required">*</span>
+						<span class="required">*</span>
 						<input id="firstname" name="firstname" type="text" placeholder="Enter your first name" required>
 					</div>
 					<div>
-						<div><span class="required">*</span>
+						<span class="required">*</span>
 						<textarea id="comment" name="comment" placeholder="Write your comment here" rows="4" required></textarea>
 					</div>
-					<div><span class="not-required">*</span>
+					<span class="not-required">*</span>
 					<button type="submit">Submit</button>
 				</form>
 			</div>
@@ -65,6 +66,7 @@
 			<p><a href='#'>Email Us</a></p>
 		</div>
 		<script src="./static/hero.js"></script>
+		<script src="./static/form.js"></script>
 	</footer>
 </body>
 </html>
