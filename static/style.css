@@ -821,6 +821,7 @@ form p {
 form p a {
 	color: #4f33ec;
 	padding-left: 0.2rem;
+	text-decoration: bold;
 }
 form p a:hover {
 	color: #6b3a1e;
