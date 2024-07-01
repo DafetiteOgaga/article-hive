@@ -58,11 +58,6 @@
     animation: fadeOut 2s ease-out forwards; /* Apply the animation */
 }
 
-.button-container {
-	text-align: center;
-	margin-top: 2rem;
-	padding-bottom: 1.5rem;
-}
 @keyframes bounceIn {
     from {
         transform: scale(0.5);
@@ -74,39 +69,12 @@
     }
 }
 .button-container button {
-	background-color: rgb(134,77,37);
-	color: white;
-	border: none;
-	border-radius: .6rem;
-	cursor: pointer;
-	transition: background-color 0.3s ease, transform 0.3s ease;
-	font-size: 1rem;
-	padding: 1rem .9rem;
     opacity: 0; /* Ensure the element is initially hidden */
     animation: bounceIn 1s ease-out forwards; /* Apply the bounce animation */
     animation-delay: 0.5s; /* Add a delay for a staggered effect */
-
-	@media (min-width: 480px) {
-        font-size: 1rem;
-    }
-	@media (min-width: 720px) {
-        font-size: 1.2rem;
-    }
-	@media (min-width: 1024px) {
-        font-size: 2rem;
-    }
 }
 
-.button-container button:hover {
-	background-color: #6b3a1e;
-	transform: scale(1.05);
-}
-
-.button-container button:active {
-	transform: scale(0.95);
-}
-
-/* @keyframes bounceIn {
+@keyframes bounceIn {
     from {
         transform: scale(0.5);
         opacity: 0;
@@ -115,22 +83,11 @@
         transform: scale(1);
         opacity: 1;
     }
-} */
+}
 .button-container h1 {
-	font-size: 1rem;
     opacity: 0; /* Ensure the element is initially hidden */
     animation: bounceIn 1s ease-out forwards; /* Apply the bounce animation */
     animation-delay: 0.5s; /* Add a delay for a staggered effect */
-
-	@media (min-width: 480px) {
-        font-size: 1rem;
-    }
-	@media (min-width: 1024px) {
-        font-size: 2rem;
-    }
-	@media (min-width: 1300px) {
-        font-size: 2.5rem;
-    }
 }
 
 p {
@@ -519,6 +476,56 @@ section a {
 	color: inherit;
 }
 
+.button-container {
+	text-align: center;
+	margin-top: 2rem;
+	padding-bottom: 1.5rem;
+}
+
+.button-container h1 {
+	font-size: 1rem;
+
+	@media (min-width: 480px) {
+        font-size: 1rem;
+    }
+	@media (min-width: 1024px) {
+        font-size: 2rem;
+    }
+	@media (min-width: 1300px) {
+        font-size: 2.5rem;
+    }
+}
+
+.button-container button {
+	background-color: rgb(134,77,37);
+	color: white;
+	border: none;
+	border-radius: .6rem;
+	cursor: pointer;
+	transition: background-color 0.3s ease, transform 0.3s ease;
+	font-size: 1rem;
+	padding: 1rem .9rem;
+
+	@media (min-width: 480px) {
+        font-size: 1rem;
+    }
+	@media (min-width: 720px) {
+        font-size: 1.2rem;
+    }
+	@media (min-width: 1024px) {
+        font-size: 2rem;
+    }
+}
+
+.button-container button:hover {
+	background-color: #6b3a1e;
+	transform: scale(1.05);
+}
+
+.button-container button:active {
+	transform: scale(0.95);
+}
+
 footer {
 	display: flex;
 	justify-content: center;
@@ -700,7 +707,7 @@ input, textarea {
 		font-size: 0.75rem;
 	}
 }
-form button {
+button {
 	background-color: rgb(134,77,37);
 	color: white;
 	padding: 0.4rem 1.25rem;
@@ -709,7 +716,7 @@ form button {
 	cursor: pointer;
 	/* font-size: 0.rem; */
 }
-form button:hover {
+button:hover {
 	background-color: #6b3a1e;
 }
 
