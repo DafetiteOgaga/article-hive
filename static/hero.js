@@ -1,6 +1,4 @@
-document.addEventListener('DOMContentLoaded', heroHandler);
-	
-function heroHandler () {
+document.addEventListener('DOMContentLoaded', function() {
 	const images = [
 		'./images/Adult-Book-Club.png',
 		'./images/GMA_Main_BookClubMontage_March_v01_ks_1710354921581_hpMain_16x9_1600.jpg',
@@ -17,6 +15,8 @@ function heroHandler () {
 		heroElement.style.backgroundSize = 'cover';
 		currentIndex = (currentIndex + 1) % images.length;
 	}
+
 	setInterval(changeBackgroundImage, 4500);
+
 	changeBackgroundImage();
-};
+});
