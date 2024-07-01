@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<<< HEAD:static/style.css
-========
->>>>>>> 82bbbe6 (changes: added more styling and animation, arranged file according to best practices)
 @keyframes dropdown {
     from {
         transform: translateY(-100%);
@@ -14,13 +9,8 @@
     }
 }
 .top-drop {
-<<<<<<< HEAD
-    opacity: 0; /* Ensure the element is initially hidden */
-    animation: dropdown 1s ease-out forwards; /* Apply the animation */
-=======
     opacity: 0;
     animation: dropdown 1s ease-out forwards;
->>>>>>> 82bbbe6 (changes: added more styling and animation, arranged file according to best practices)
 }
 
 @keyframes dropup {
@@ -34,13 +24,8 @@
     }
 }
 .down-drop {
-<<<<<<< HEAD
-    opacity: 0; /* Ensure the element is initially hidden */
-    animation: dropup 1s ease-out forwards; /* Apply the animation */
-=======
     opacity: 0;
     animation: dropup 1s ease-out forwards;
->>>>>>> 82bbbe6 (changes: added more styling and animation, arranged file according to best practices)
 }
 
 @keyframes fadeIn {
@@ -54,13 +39,8 @@
     }
 }
 .left-anime {
-<<<<<<< HEAD
-    opacity: 0; /* Ensure the element is initially hidden */
-    animation: fadeIn 2s ease-out forwards; /* Apply the animation */
-=======
     opacity: 0;
     animation: fadeIn 2s ease-out forwards;
->>>>>>> 82bbbe6 (changes: added more styling and animation, arranged file according to best practices)
 }
 
 @keyframes fadeOut {
@@ -74,12 +54,6 @@
     }
 }
 .right-anime {
-<<<<<<< HEAD
-    opacity: 0; /* Ensure the element is initially hidden */
-    animation: fadeOut 2s ease-out forwards; /* Apply the animation */
-}
-
-=======
     opacity: 0;
     animation: fadeOut 2s ease-out forwards;
 }
@@ -89,7 +63,6 @@
 	margin-top: 2rem;
 	padding-bottom: 1.5rem;
 }
->>>>>>> 82bbbe6 (changes: added more styling and animation, arranged file according to best practices)
 @keyframes bounceIn {
     from {
         transform: scale(0.5);
@@ -100,15 +73,6 @@
         opacity: 1;
     }
 }
-<<<<<<< HEAD
-.button-container button {
-    opacity: 0; /* Ensure the element is initially hidden */
-    animation: bounceIn 1s ease-out forwards; /* Apply the bounce animation */
-    animation-delay: 0.5s; /* Add a delay for a staggered effect */
-}
-
-@keyframes bounceIn {
-=======
 .click-anime {
 	opacity: 0;
     animation: bounceIn 1s ease-out forwards;
@@ -145,7 +109,6 @@
 }
 
 /* @keyframes bounceIn {
->>>>>>> 82bbbe6 (changes: added more styling and animation, arranged file according to best practices)
     from {
         transform: scale(0.5);
         opacity: 0;
@@ -154,15 +117,6 @@
         transform: scale(1);
         opacity: 1;
     }
-<<<<<<< HEAD
-}
-.button-container h1 {
-    opacity: 0; /* Ensure the element is initially hidden */
-    animation: bounceIn 1s ease-out forwards; /* Apply the bounce animation */
-    animation-delay: 0.5s; /* Add a delay for a staggered effect */
-}
-
-=======
 } */
 .button-container h1 {
 	font-size: 1rem;
@@ -181,8 +135,6 @@
     }
 }
 
->>>>>>>> 82bbbe6 (changes: added more styling and animation, arranged file according to best practices):static/css/style.css
->>>>>>> 82bbbe6 (changes: added more styling and animation, arranged file according to best practices)
 p {
 	font-size: 0;
 }
@@ -353,25 +305,18 @@ ul li {
 
 article {
 	padding-top: 2rem;
-<<<<<<< HEAD
-	margin: 1rem;
-=======
->>>>>>> 82bbbe6 (changes: added more styling and animation, arranged file according to best practices)
 	/* box-sizing: border-box; */
 
 	@media (min-width: 480px) {
         font-size: 1rem;
     }
 }
-<<<<<<< HEAD
-=======
 .article-new {
 	margin: 0.3rem;
 }
 .article-rated {
 	margin: 1rem;
 }
->>>>>>> 82bbbe6 (changes: added more styling and animation, arranged file according to best practices)
 
 article img {
 	width: 1.2rem;
@@ -404,11 +349,6 @@ article p {
 	align-self: center;
 }
 .separator-rated {
-<<<<<<< HEAD
-	/* color: #afa4a4;
-	margin: 0 .4rem; */
-	align-self: flex-end;
-=======
 	padding-top: 0.7rem;
 	@media (min-width: 480px) {
         padding-top: 0.2rem;
@@ -417,7 +357,6 @@ article p {
         padding-top: 0.3rem;
     }
 	/* align-self: flex-end; */
->>>>>>> 82bbbe6 (changes: added more styling and animation, arranged file according to best practices)
 }
 
 .hive {
@@ -443,11 +382,7 @@ article p {
     }
 }
 
-<<<<<<< HEAD
-.responseive {
-=======
 .responsive {
->>>>>>> 82bbbe6 (changes: added more styling and animation, arranged file according to best practices)
 	display: flex;
 	flex-direction: column;
 
@@ -459,8 +394,6 @@ article p {
     }
 }
 
-<<<<<<< HEAD
-=======
 .hive-responsive {
 	display: grid;
     grid-template-columns: repeat(auto-fill, minmax(1fr));
@@ -474,7 +407,6 @@ article p {
 	}
 }
 
->>>>>>> 82bbbe6 (changes: added more styling and animation, arranged file according to best practices)
 .profile {
 	display: flex;
 	flex-direction: column;
@@ -606,74 +538,18 @@ article p {
         font-size: 1rem;
     }
 }
-<<<<<<< HEAD
-=======
 .position-h1-new h1 {
 	@media (min-width: 480px) {
         margin-top: 0.4rem;
     }
 	/* margin-top: 0.4rem; */
 }
->>>>>>> 82bbbe6 (changes: added more styling and animation, arranged file according to best practices)
 
 section a {
 	text-decoration: none;
 	color: inherit;
 }
 
-<<<<<<< HEAD
-.button-container {
-	text-align: center;
-	margin-top: 2rem;
-	padding-bottom: 1.5rem;
-}
-
-.button-container h1 {
-	font-size: 1rem;
-
-	@media (min-width: 480px) {
-        font-size: 1rem;
-    }
-	@media (min-width: 1024px) {
-        font-size: 2rem;
-    }
-	@media (min-width: 1300px) {
-        font-size: 2.5rem;
-    }
-}
-
-.button-container button {
-	background-color: rgb(134,77,37);
-	color: white;
-	border: none;
-	border-radius: .6rem;
-	cursor: pointer;
-	transition: background-color 0.3s ease, transform 0.3s ease;
-	font-size: 1rem;
-	padding: 1rem .9rem;
-
-	@media (min-width: 480px) {
-        font-size: 1rem;
-    }
-	@media (min-width: 720px) {
-        font-size: 1.2rem;
-    }
-	@media (min-width: 1024px) {
-        font-size: 2rem;
-    }
-}
-
-.button-container button:hover {
-	background-color: #6b3a1e;
-	transform: scale(1.05);
-}
-
-.button-container button:active {
-	transform: scale(0.95);
-}
-
-=======
->>>>>>> 82bbbe6 (changes: added more styling and animation, arranged file according to best practices)
 footer {
 	display: flex;
 	justify-content: center;
@@ -712,14 +588,6 @@ footer p {
 
 footer img {
 	width: 6rem;
-<<<<<<< HEAD
-
-	@media (min-width: 480px) {
-        width: 10rem;
-    }
-	@media (min-width: 720px) {
-        width: 20rem;
-=======
 	height: 1rem;
 
 	@media (min-width: 1024px) {
@@ -728,7 +596,6 @@ footer img {
     }
 	@media (min-width: 720px) {
         /* width: rem; */
->>>>>>> 82bbbe6 (changes: added more styling and animation, arranged file according to best practices)
     }
 }
 
@@ -866,23 +733,13 @@ input, textarea {
 		font-size: 0.75rem;
 	}
 }
-<<<<<<< HEAD
-button {
-=======
 form button {
->>>>>>> 82bbbe6 (changes: added more styling and animation, arranged file according to best practices)
 	background-color: rgb(134,77,37);
 	color: white;
 	padding: 0.4rem 1.25rem;
 	border: none;
 	border-radius: 4px;
 	cursor: pointer;
-<<<<<<< HEAD
-	/* font-size: 0.rem; */
-}
-button:hover {
-	background-color: #6b3a1e;
-=======
 	transition: background-color 0.3s ease, transform 0.3s ease;
 	/* font-size: 0.rem; */
 }
@@ -890,9 +747,8 @@ form button:hover {
 	background-color: #6b3a1e;
 	transform: scale(1.05);
 }
-form buttonactive {
+form button:active {
 	transform: scale(0.95);
->>>>>>> 82bbbe6 (changes: added more styling and animation, arranged file according to best practices)
 }
 
 .form-register, .form-contact, .form-login {
@@ -996,10 +852,6 @@ form p {
 form p a {
 	color: #4f33ec;
 	padding-left: 0.2rem;
-<<<<<<< HEAD
-	text-decoration: bold;
-=======
->>>>>>> 82bbbe6 (changes: added more styling and animation, arranged file according to best practices)
 }
 form p a:hover {
 	color: #6b3a1e;
