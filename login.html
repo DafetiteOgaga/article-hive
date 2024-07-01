@@ -7,12 +7,12 @@
 	<meta name="description" content="An online article club that promotes knowledge">
 	<link rel="shortcut icon" type="image/png" href="./logo - shade of brown/the-article-hive-favicon-color.png" />
 	<title>The Article Hive</title>
-	<link rel="stylesheet" href="./static/style.css">
+	<link rel="stylesheet" href="./static/css/style.css">
 </head>
 <body>
 	<header>
 		<a href="./index.html">
-			<img class="right-anime" src="./logo - shade of brown/the-article-hive-high-resolution-logo-transparent.png" alt="header logo" />
+			<img class="right-anime" src="./static/logo - shade of brown/the-article-hive-high-resolution-logo-transparent.png" alt="header logo" />
 		</a>
 		<div style="display: flex;">
 			<nav class="left-anime">
@@ -33,20 +33,22 @@
 	</header>
 	<main>
 		<section class="login">
-			<div class="content down-drop">
-				<h1>Login</h1>
+			<div class="content top-drop">
+				<h1 class="right-anime">Login</h1>
 				<!-- <form class="form-login" action="/submit-your-form-handler" method="POST"> -->
 				<form id="form" class="form-login" action="" method="POST">
-					<div>
+					<div class="down-drop">
 						<span class="required">*</span>
 						<input id="email" name="email" type="email" placeholder="Email" required>
 					</div>
-					<div>
+					<div class="down-drop">
 						<span class="required">*</span>
 						<input id="password" name="password" type="password" placeholder="Password" required>
 					</div>
 					<div><span class="not-required">*</span>
-					<button type="submit">Submit</button>
+						<div class="click-anime">
+							<button type="submit">Log in</button>
+						</div>
 					<p>Not yet a member? Register<a href="./register.html">here</a></p>
 				</form>
 			</div>
@@ -54,7 +56,7 @@
 	</main>
 	<footer class="paragraph">
 		<div>
-            <img src="./logo - shade of brown/the-article-hive-high-resolution-logo-white-transparent.png" alt="footer logo" />
+            <img src="./static/logo - shade of brown/the-article-hive-high-resolution-logo-white-transparent.png" alt="footer logo" />
         </div>
 		<div>
 			<p>Privacy Policy</p>
@@ -66,8 +68,8 @@
 			<p>Phone: +234(0) 802 222 2222</p>
 			<p><a href='#'>Email Us</a></p>
 		</div>
-		<script src="./static/hero.js"></script>
-		<script src="./static/form.js"></script>
+		<script src="./static/js/form.js"></script>
+		<script src="./static/js/hero.js"></script>
 	</footer>
 </body>
 </html>
